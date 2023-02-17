@@ -1,5 +1,97 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100%;
+    color: #172B4D;
+    margin: auto;
 }
+
+/* paragraph typography */
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172B4D;
+  margin: 0%;
+}
+
+/* flexbox container no.1 */
+.navtools_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    /*for logo(welcome) styling */
+    .logo {
+      width: 90px;
+      height: 28px;
+      padding: 5% 0% 0% 10%;
+      font-family: 'Inter';
+      font-weight: 600;
+      line-height: 28px;
+      color: #28352F;
+    }
+
+    .navbar{
+      padding: 7% 10% 0% 0%;
+
+}
+
+
+/*flexbox container no.2  */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+    /* background image */
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  }
+
+  .item{
+    /* display: flex; */
+  }
+  .item1{
+    padding: 6.25% 10% 3% 10%;
+
+  }
+  
+  /* changing color of second h1 */
+ .item2 {
+  padding: 3% 10% 6.25% 10%;
+  color: #36B37E;
+ }
+ .item3{
+  padding: 6.25% 10% 7% 10%;
+ }
+ .item4{
+  flex: 0 0 auto;
+  padding: 7% 100% 12.5% 100%;
+  align-self: center;
+ }
+
+
+
+
+
+
+
