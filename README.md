@@ -89,22 +89,43 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-Use git clone command or downloaded ZIP folder
-
+ Use git clone command or downloaded ZIP folder
+Example command:
+```sh
+  cd my-folder
+  git clone: (https://github.com/emhamza/My-portfolio-site.git)
+```
 ### Install
 
-Install this project with:
-npm
+Install this project with: npm Example commands:
+```sh
+  cd my-project
+  npm init -y
+```
+```sh
+  npm install --save-dev hint@7.x
+```
+```sh
+  npx hint .
+```
+```sh
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 
 ### Usage
 
-To run the project, execute the following command:
-live server or npm start
-
+To run the project, execute the following command: npm test
+Example command:
+```sh
+   GitHub Pages Server
+```
 ### Run tests
 
-To run tests, run the following command:
-npm test
+To run tests, run the following command: npm test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+  ```
 
 ### Deployment
 

@@ -1,9 +1,3 @@
-body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -66,21 +60,21 @@ p {
 }
 
 .item1 {
-  padding: 6.25% 10% 3% 10%;
+  padding: 10% 10% 2% 10%;
 }
 
 /* changing color of second h1 */
 .item2 {
-  padding: 3% 10% 6.25% 10%;
+  padding: 2% 10% 6.25% 10%;
   color: #36b37e;
 }
 
 .item3 {
-  padding: 6.25% 10% 7% 10%;
+  padding: 6.25% 10% 15% 10%;
 }
-
-.item4 {
-  flex: 0 0 auto;
-  padding: 7% 100% 12.5% 100%;
-  align-self: center;
+.icon_container a{ 
+  margin-right: 15px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
