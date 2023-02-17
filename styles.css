@@ -73,7 +73,16 @@ p {
   padding: 6.25% 10% 15% 10%;
 }
 
-.icon_container a {
+.icon_container {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.icon_container li {
   margin-right: 15px;
   align-items: center;
   width: 100%;
