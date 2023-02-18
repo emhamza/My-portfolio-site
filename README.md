@@ -64,7 +64,7 @@ This project is about building a personal portfolio website - specifically about
 - **[Use-of-HTML5 tools]**
 - **[Follow HTML and CSS best practice]**
 - **[Style your picture placehilders]**
-- **[Use of css grid properrty]**
+- **[se of css grid properrty]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
