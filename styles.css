@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -87,13 +88,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 100px 0px 100px;
-  padding: 0px;
-
+  margin: 0 100px 0 100px;
+  padding: 0;
 }
 
 ul {
-  padding: 0px 35px 0px 35px;
+  padding: 0 35px 0 35px;
 }
 
 li {
@@ -208,6 +208,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+
   /* padding: 5px 12px 5px 12px; */
   gap: 10px;
   margin: 13px 0 24px 0;
@@ -353,18 +354,18 @@ h3 {
 
 /* the contact form CSS start from here */
 
-form{
+form {
   margin: 0 auto;
   width: 400px;
-  padding: 0px;
+  padding: 0;
 }
 
-input{
+input {
   box-sizing: border-box;
   width: 327px;
-  padding: 0px;
+  padding: 0;
   height: 48px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   background-color: white;
   border-radius: 4px;
 }
@@ -372,14 +373,13 @@ input{
 .name {
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   padding: 10px;
-
 }
 
 .name-box {
@@ -390,7 +390,7 @@ input{
 .email {
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
@@ -406,14 +406,14 @@ input{
 .text {
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   height: 114px;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
 }
 
@@ -421,12 +421,14 @@ textarea {
   width: 306px;
   padding: 10px;
 }
+
 .text-box {
   margin-bottom: 24px;
 }
-/* HMTL Form starts form here*/
 
- .contact-form-2 {
+/* HMTL Form starts form here */
+
+.contact-form-2 {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -434,13 +436,12 @@ textarea {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  
+
   /* Background image */
   background-image: url('final-pic.png');
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: right 60%;
-  
 }
 
 .my-email {
@@ -449,8 +450,7 @@ textarea {
   font-size: 20px;
   text-align: center;
   color: #172b4d;
-  margin: 0px 0px 67px 0px;
-  
+  margin: 0 0 67px 0;
 }
 
 .footer {
@@ -459,19 +459,18 @@ textarea {
   height: 4px;
   border-radius: 24px;
   margin-top: 134px;
-} 
+}
 
 .submit-b {
   display: flex;
   align-items: center;
   justify-content: center;
   letter-spacing: 0.03em;
-  
 }
 
 .last-sec {
   width: 375px;
   height: 189px;
   margin-top: 10px;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
 }
