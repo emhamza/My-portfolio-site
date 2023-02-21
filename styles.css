@@ -337,3 +337,88 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+/* the contact form CSS start from here */
+
+form{
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+}
+
+input{
+  box-sizing: border-box;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #D0D9D4;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+
+}
+
+
+/* I can deal with it later */
+ .contact-form-2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+.my-email {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0px 0px 67px 0px;
+  
+}
+
+.footer {
+  background-color: black;
+
+  width: 150px;
+  height: 4px;
+  border-radius: 24px;
+} 
