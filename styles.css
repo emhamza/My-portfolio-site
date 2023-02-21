@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -368,6 +373,11 @@ input{
 
 }
 
+.name-box {
+  margin-bottom: 24px;
+  margin-top: 55px;
+}
+
 .email {
   display: flex;
   align-items: center;
@@ -380,6 +390,10 @@ input{
 
 }
 
+.email-box {
+  margin-bottom: 24px;
+}
+
 .text {
   display: flex;
   align-items: center;
@@ -389,7 +403,12 @@ input{
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  height: 114px;
 
+}
+
+.text-box {
+  margin-bottom: 24px;
 }
 
 
