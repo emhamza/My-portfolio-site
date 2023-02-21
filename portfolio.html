@@ -243,28 +243,32 @@
     </h1>
   </section>
 
+  <section class="contact-form-2">
+
         <form action="https://formspree.io/f/xgebkzaz" method="post">
           <ul>
 
             <li class="name-box">
-              <input type="text" placeholder="Full name" maxlength="30" class="name"/>
+              <label for="name"></label>
+              <input name="user-name" type="text" placeholder="Full name" maxlength="30" class="name" required/>
             </li>
 
             <li class="email-box"> 
-              <input type="email" placeholder="Email address"  pattern=".+@globex\.com" class="email"/>
+              <label for="email"></label>
+              <input type="email" name="email" placeholder="Email address" class="email" required/>
             </li>
 
             <li class="text-box">
-              <input type="text" placeholder="Enter yout text here"  maxlength="500" class="text"/>
+              <label for="message"></label>
+              <textarea type="text" name="message" rows="5" placeholder="Enter yout text here"  maxlength="500" class="text" required></textarea>
             </li>
+          </ul>
           
-            <li class="submit-button">
-              <button type="submit">
+            <div class="b_div">
+              <button class="resume_button">
                 Get in touch
               </button>
-            </li>
-
-          </ul>
+            </div>
         </form>
         
         <ul class="icon_container">
@@ -274,14 +278,13 @@
           <li><a href="https://github.com/"><img src="github.png" alt="github icon"></a></li>
           <li><a href="https://www.angellist.com/"><img src="angellist.png" alt="angellist icon"></a></li>
         </ul>
-
-
-      <section class="contact-form-2">
-
-        <P>
-          imumairhamza@gmail.com
-        </P> 
-
+        
+        <div class="last-sec">
+          <P>
+           imumairhamza@gmail.com
+          </P> 
+        </div>
+        
         <hr class="footer">
       </section>
     </section>

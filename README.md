@@ -31,6 +31,7 @@
 # 📖 [My-Portfolio-site] <a name="about-project"></a>
 
 This project is about building a personal portfolio website - specifically about the mobile first usage. By giving a glance to this project you can understand the usage of flexbox container and flexbox items. The purpose of this project is making an effective, SEO friendly, responsive, and quality personal portfolio to showcase myself to the professional market.
+I have completed the thirs milstone of the following project and add a HTML from to my portfolio website!
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML5
@@ -64,7 +65,8 @@ This project is about building a personal portfolio website - specifically about
 - **[Use-of-HTML5 tools]**
 - **[Follow HTML and CSS best practice]**
 - **[Style your picture placehilders]**
-- **[se of css grid properrty]**
+- **[Use of css grid properrty]**
+- **[Use of HTML form with custamization]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

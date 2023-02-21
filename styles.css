@@ -85,7 +85,15 @@ p {
 
 .icon_container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 0px 100px 0px 100px;
+  padding: 0px;
+
+}
+
+ul {
+  padding: 0px 35px 0px 35px;
 }
 
 li {
@@ -93,7 +101,7 @@ li {
 }
 
 .icon_container li {
-  padding: 0 8px 0 8px;
+  padding: 0 10px 0 10px;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -200,7 +208,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 12px 5px 12px;
+  /* padding: 5px 12px 5px 12px; */
   gap: 10px;
   margin: 13px 0 24px 0;
 }
@@ -348,13 +356,13 @@ h3 {
 form{
   margin: 0 auto;
   width: 400px;
-  padding: 1em;
-
+  padding: 0px;
 }
 
 input{
   box-sizing: border-box;
   width: 327px;
+  padding: 0px;
   height: 48px;
   border: 1px solid #D0D9D4;
   background-color: white;
@@ -370,6 +378,7 @@ input{
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  padding: 10px;
 
 }
 
@@ -387,7 +396,7 @@ input{
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-
+  padding: 10px;
 }
 
 .email-box {
@@ -404,15 +413,19 @@ input{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   height: 114px;
-
+  border: 1px solid #60C095;
+  border-radius: 4px;
 }
 
+textarea {
+  width: 306px;
+  padding: 10px;
+}
 .text-box {
   margin-bottom: 24px;
 }
+/* HMTL Form starts form here*/
 
-
-/* I can deal with it later */
  .contact-form-2 {
   display: flex;
   flex-direction: column;
@@ -421,6 +434,12 @@ input{
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  
+  /* Background image */
+  background-image: url('final-pic.png');
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: right 60%;
   
 }
 
@@ -436,8 +455,23 @@ input{
 
 .footer {
   background-color: black;
-
-  width: 150px;
+  width: 200px;
   height: 4px;
   border-radius: 24px;
+  margin-top: 134px;
 } 
+
+.submit-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  
+}
+
+.last-sec {
+  width: 375px;
+  height: 189px;
+  margin-top: 10px;
+  padding: 0px 0px 0px 0px;
+}
