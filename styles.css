@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -18,7 +18,7 @@ h1 {
 /* paragraph typography */
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -41,7 +41,7 @@ p {
   width: 90px;
   height: 28px;
   padding: 5% 0% 0% 10%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 28px;
   color: #28352f;
@@ -64,7 +64,7 @@ p {
 
   /* background image */
 
-  background-image: url('background.png');
+  background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -170,7 +170,7 @@ h3 {
 
 .title {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ h3 {
 }
 
 .a1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -214,7 +214,7 @@ h3 {
   margin: 13px 0 24px 0;
 }
 
-.button, 
+.button,
 .get-button {
   background-color: #36b37f;
   font-weight: 600px;
@@ -232,7 +232,7 @@ h3 {
 }
 
 .get-button:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .about_me_container {
@@ -247,7 +247,7 @@ h3 {
 
   /* background image */
 
-  background-image: url('Mask-Group-top.png'), url('Frame.png');
+  background-image: url("Mask-Group-top.png"), url("Frame.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -262,7 +262,7 @@ h3 {
 }
 
 .resume_button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #36b37f;
   font-weight: 500px;
   font-size: 20px;
@@ -318,7 +318,7 @@ h3 {
 
 .about-title {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   justify-content: center;
   align-items: center;
@@ -337,7 +337,7 @@ h3 {
 }
 
 .about-a1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -382,7 +382,7 @@ input {
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   padding: 10px;
 }
@@ -399,7 +399,7 @@ input {
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   padding: 10px;
 }
@@ -415,7 +415,7 @@ input {
   line-height: 24px;
   font-size: 15px;
   font-weight: 400px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   height: 114px;
   border: 1px solid #60c095;
@@ -443,14 +443,14 @@ textarea {
   text-align: center;
 
   /* Background image */
-  background-image: url('final-pic.png');
+  background-image: url("final-pic.png");
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: right 60%;
 }
 
 .my-email {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
