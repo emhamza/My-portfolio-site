@@ -63,6 +63,15 @@ p {
   background-size: 100%;
 }
 
+/* @media (min-width: 768px) {
+  .main_container {
+    background-image: url('desk-v-pics/desk-pic-1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+} */
+
 .item1 {
   padding: 10% 10% 2% 10%;
 }
