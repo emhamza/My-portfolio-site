@@ -73,7 +73,7 @@ I have completed the thirs milstone of the following project and add a HTML from
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/portfolio.html)
+- Coming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
