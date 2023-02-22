@@ -31,6 +31,7 @@
 # 📖 [My-Portfolio-site] <a name="about-project"></a>
 
 This project is about building a personal portfolio website - specifically about the mobile first usage. By giving a glance to this project you can understand the usage of flexbox container and flexbox items. The purpose of this project is making an effective, SEO friendly, responsive, and quality personal portfolio to showcase myself to the professional market.
+I have completed the thirs milstone of the following project and add a HTML from to my portfolio website!
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML5
@@ -64,14 +65,15 @@ This project is about building a personal portfolio website - specifically about
 - **[Use-of-HTML5 tools]**
 - **[Follow HTML and CSS best practice]**
 - **[Style your picture placehilders]**
-- **[se of css grid properrty]**
+- **[Use of css grid properrty]**
+- **[Use of HTML form with custamization]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Coming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +147,12 @@ GitHub Pages
 - Twitter: [@uhamzaz](https://twitter.com/uhamzaz)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/umair-hamza-a8262b261/)
 
+👤 **Azeez umoru**
+
+- GitHub: [@azeezumoru](https://github.com/azeezumoru)
+- Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
+- LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -180,4 +188,4 @@ I would like to thank Microvers for  this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p
