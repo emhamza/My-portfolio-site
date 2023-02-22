@@ -73,7 +73,7 @@ I have completed the thirs milstone of the following project and add a HTML from
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](http://127.0.0.1:5500/portfolio.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +146,12 @@ GitHub Pages
 - GitHub: [@emhamza](https://github.com/emhamza)
 - Twitter: [@uhamzaz](https://twitter.com/uhamzaz)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/umair-hamza-a8262b261/)
+
+👤 **Azeez umoru**
+
+- GitHub: [@azeezumoru](https://github.com/azeezumoru)
+- Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
+- LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
