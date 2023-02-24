@@ -599,7 +599,7 @@ textarea {
   }
 
   .scrol_button {
-    margin-bottom: 50%;
+    margin-bottom: 70vh;
   }
 
   .grid_container_1 {
@@ -612,12 +612,14 @@ textarea {
   }
 
   .second_page_title {
-    padding: 0;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 350px);
+    margin-top: 5vh;
   }
 
   .about_me_container {
@@ -704,7 +706,7 @@ textarea {
 
   .about-me-3 {
     font-size: 30px;
-    padding-top: 20vh;
+    padding-top: 15vh;
   }
 
   .desktop-last {
@@ -712,6 +714,23 @@ textarea {
     flex-direction: row;
     padding-right: 5%;
     padding-left: 5%;
+    margin-top: 10vh;
+  }
+
+  .about_me1 {
+    margin-top: 40px;
+    padding-bottom: 2vh;
+  }
+
+  .about_me2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 45vh;
+    padding-right: 45vh;
+  }
+
+  .project-card {
+    margin-top: 3vh;
   }
 }
 
