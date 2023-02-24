@@ -69,14 +69,22 @@ p {
   background-size: 100%;
 }
 
-/* @media (min-width: 768px) {
-  .main_container {
-    background-image: url('desk-v-pics/desk-pic-1.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
-} */
+.dn-list {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.dn-list li {
+  flex: 1;
+  font-weight: 700;
+  color: #5c5858;
+}
 
 .item1 {
   padding: 10% 10% 2% 10%;
@@ -105,12 +113,8 @@ ul {
   padding: 0 35px 0 35px;
 }
 
-li {
-  list-style: none;
-}
-
 .icon_container li {
-  padding: 0 10px 0 10px;
+  padding: 0 10px 100px 10px;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -146,31 +150,6 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.image_placeholder {
-  display: flex;
-}
-
-.card-1 {
-  display: flex;
-  padding: 0% 0% 0% 0%;
-  border-radius: 16px;
-  margin-top: 40px;
-  background-color: white;
-  width: 327px;
-  height: 474px;
-}
-
-.card-2 {
-  padding: 0% 0% 0% 0%;
-  border: 1px solid #d0d9d4;
-  border-radius: 6px;
-  margin-top: -206px;
-  width: 328px;
-  height: 208px;
-  margin-left: 2px;
-  background-color: white;
 }
 
 h3 {
@@ -211,16 +190,6 @@ h3 {
   padding: 12px 12px;
   margin-right: 8px;
   letter-spacing: 0.03em;
-}
-
-.b_div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* padding: 5px 12px 5px 12px; */
-  gap: 10px;
-  margin: 13px 0 24px 0;
 }
 
 .button,
@@ -483,8 +452,296 @@ textarea {
 }
 
 .last-sec {
+  display: flex;
+  justify-content: center;
+}
+
+.last-sec p {
+  text-align: center;
   width: 375px;
   height: 189px;
   margin-top: 10px;
   padding: 0 0 0 0;
+}
+
+.icon-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 46px 100px 0 100px;
+  padding: 0;
+}
+
+.icon-container-2 li {
+  padding: 0 10px 10px 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px 0 100px;
+  padding: 0;
+}
+
+.icon-container-3 li {
+  padding: 0 10px 10px 10px;
+  align-items: center;
+}
+
+.about-me-3 {
+  margin-top: 40px;
+  padding: 6% 10% 6% 10%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf0ee;
+  width: 328px;
+  height: 474px;
+  margin: 5px 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.project-title {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 0% 10% 0% 10%;
+  color: #3a4a42;
+  line-height: 32px;
+  text-align: center;
+  background-color: white;
+  margin-top: 271px;
+}
+
+.project-abilites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  background-color: white;
+}
+
+.b_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 0;
+  border-radius: 8px;
+  padding: 10px 12px 10px 12px;
+  gap: 10px;
+}
+
+.see-button {
+  background-color: #36b37f;
+  font-weight: 600px;
+  font-size: 17px;
+  color: white;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  border: 2px solid #36b37f;
+}
+
+.see-button:active {
+  background: #008552;
+  border-radius: 4px;
+}
+
+.see-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.last-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 0;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+/* <----------------------------------MIN-WIDTH MEDIA QUERRY STARTS FROM HERE----------------------------------------> */
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image:
+      url("desk-v-pics/desk-b-1.png"),
+      url("desk-v-pics/desk-b-2.png"),
+      url("desk-v-pics/desk-b-3.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right 98%, left 98%, 16% 97%;
+  }
+
+  .navtools_container {
+    display: none;
+  }
+
+  .main_container {
+    background-image: url("desk-v-pics/desk-pic-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .scrol_button {
+    margin-bottom: 70vh;
+  }
+
+  .grid_container_1 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .second_page_title {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    margin-top: 5vh;
+  }
+
+  .about_me_container {
+    background-image:
+      url("desk-v-pics/about-top-right-desktop.png"),
+      url("desk-v-pics/about-bottom-left-desktop.png");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+  }
+
+  form ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    width: 140%;
+    height: 140%;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 135%;
+    border-radius: 4px;
+  }
+
+  .contact-form-2 {
+    display: flex;
+    background-image: none;
+  }
+
+  .footer {
+    background-color: #dfe1e6;
+    width: 1440px;
+    height: 1px;
+    border-radius: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .icon-container-2 {
+    display: none;
+  }
+
+  .last-sec {
+    display: none;
+  }
+
+  .last-b {
+    justify-content: start;
+    margin-left: 0;
+  }
+
+  .contact-form-1 {
+    width: 45%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+  }
+
+  .imp-div {
+    height: 48px;
+  }
+
+  .about-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+  }
+
+  .item2 {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .item3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-me-3 {
+    font-size: 30px;
+    padding-top: 15vh;
+  }
+
+  .desktop-last {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 10vh;
+  }
+
+  .about_me1 {
+    margin-top: 40px;
+    padding-bottom: 2vh;
+  }
+
+  .about_me2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 45vh;
+    padding-right: 45vh;
+  }
+
+  .project-card {
+    margin-top: 3vh;
+  }
+}
+
+/* <---------------------MAX-WIDTH QURRIES GOES THERE ------------------------------------> */
+
+@media screen and (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .icon-container-3 {
+    display: none;
+  }
 }
