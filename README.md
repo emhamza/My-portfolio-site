@@ -32,6 +32,7 @@
 
 This project is about building a personal portfolio website - specifically about the mobile first usage. By giving a glance to this project you can understand the usage of flexbox container and flexbox items. The purpose of this project is making an effective, SEO friendly, responsive, and quality personal portfolio to showcase myself to the professional market.
 I have completed the thirs milstone of the following project and add a HTML from to my portfolio website!
+The third miltstone of the portfolio project(Desktop-Version using media quries) has been achieved and added!
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML5

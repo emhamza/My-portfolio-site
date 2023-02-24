@@ -69,13 +69,21 @@ p {
   background-size: 100%;
 }
 
-@media (min-width: 768px) {
-  .main_container {
-    background-image: url('desk-v-pics/desk-pic-1.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
+.dn-list {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.dn-list li {
+  flex: 1;
+  font-weight: 700;
+  color: #5c5858;
 }
 
 .item1 {
@@ -103,10 +111,6 @@ p {
 
 ul {
   padding: 0 35px 0 35px;
-}
-
-li {
-  list-style: none;
 }
 
 .icon_container li {
@@ -146,24 +150,6 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media (min-width: 768px) {
-  .card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  /* Select every third item and remove right margin to prevent wrapping */
-  .card-container:nth-child(3n) {
-    margin-right: 0;
-  }
-}
-
-.image_placeholder {
-  display: flex;
 }
 
 h3 {
@@ -206,8 +192,6 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-
-
 .button,
 .get-button {
   background-color: #36b37f;
@@ -241,20 +225,10 @@ h3 {
 
   /* background image */
 
-  background-image: url('Mask-Group-top.png'), url('Frame.png');
+  background-image: url("Mask-Group-top.png"), url("Frame.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
- 
-@media (min-width: 768px) {
-
-  .about_me_container {
-    background-image: url('desk-v-pics/about-top-right-desktop.png'), url('desk-v-pics/about-bottom-left-desktop.png');
-    background-position: right top, left bottom;
-    background-repeat: no-repeat;
-  }
-}
-  
 
 .about_me1 {
   margin-top: 40px;
@@ -310,18 +284,6 @@ h3 {
   margin: 5px 0;
 }
 
-/* @media (min-width: 768px) {
-  .about-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    background-color: #ebf0ee;
-    width: 327px;
-    height: 352px;
-    margin: 5px 0;
-  }
-} */
-
 .about-icon {
   width: 128px;
   height: 128px;
@@ -371,17 +333,6 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media (min-width: 768px) {
-  .about-card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    margin: 10px 80px 10px 80px;
- }
 }
 
 /* the contact form CSS start from here */
@@ -493,17 +444,6 @@ textarea {
   margin-top: 100px;
 }
 
-@media (min-width: 768px) {
-  .footer {
-    background-color: #DFE1E6;
-    width: 1440px;
-    height: 1px;
-    border-radius: 24px;
-    margin-top: 327px;
-    margin-bottom: 20px;
-  }
-}
-
 .submit-b {
   display: flex;
   align-items: center;
@@ -512,6 +452,12 @@ textarea {
 }
 
 .last-sec {
+  display: flex;
+  justify-content: center;
+}
+
+.last-sec p {
+  text-align: center;
   width: 375px;
   height: 189px;
   margin-top: 10px;
@@ -522,7 +468,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 46px 100px 0px 100px;
+  margin: 46px 100px 0 100px;
   padding: 0;
 }
 
@@ -530,29 +476,6 @@ textarea {
   padding: 0 10px 10px 10px;
   align-items: center;
   width: 100%;
-  /* height: 100%; */
-}
-
-@media (min-width: 768px) {
-  .icon-container-2 {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .last-sec {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .contact-form-2 {
-    background-image: url('desk-v-pics/desk-b-1.png'), url('desk-v-pics/desk-b-2.png');
-    background-repeat: no-repeat;
-    background-size: 8%;
-    background-position: right 91%, left 91%, bottom;
-    background-position-x: right 0px, left 0px;
-  }
 }
 
 .icon-container-3 {
@@ -564,14 +487,8 @@ textarea {
 }
 
 .icon-container-3 li {
-  padding: 0px 10px 10px 10px;
+  padding: 0 10px 10px 10px;
   align-items: center;
-}
-
-@media (max-width: 768px) {
-  .icon-container-3 {
-    display: none;
-  }
 }
 
 .about-me-3 {
@@ -582,12 +499,11 @@ textarea {
 .project-card {
   display: flex;
   flex-direction: column;
-  border-radius: 18px;
   background-color: #ebf0ee;
   width: 328px;
   height: 474px;
   margin: 5px 0;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
 
@@ -611,10 +527,9 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 0px 0px;
-  padding: 10px 0px 10px 0px;
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
   background-color: white;
-
 }
 
 .b_div {
@@ -622,15 +537,12 @@ textarea {
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 0px 0px;
+  margin: 0 0;
   border-radius: 8px;
-
-  /* padding: 5px 12px 5px 12px; */
+  padding: 10px 12px 10px 12px;
   gap: 10px;
-  /* margin: 13px 0 24px 0; */
 }
 
-.button,
 .see-button {
   background-color: #36b37f;
   font-weight: 600px;
@@ -640,7 +552,6 @@ textarea {
   width: 122px;
   height: 48px;
   border: 2px solid #36b37f;
-  margin: 10px 0px 10px 0px;
 }
 
 .see-button:active {
@@ -650,4 +561,168 @@ textarea {
 
 .see-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.last-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 0 0;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+/* <----------------------------------MIN-WIDTH MEDIA QUERRY STARTS FROM HERE----------------------------------------> */
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image:
+      url("desk-v-pics/desk-b-1.png"),
+      url("desk-v-pics/desk-b-2.png"),
+      url("desk-v-pics/desk-b-3.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right 98%, left 98%, 16% 97%;
+  }
+
+  .navtools_container {
+    display: none;
+  }
+
+  .main_container {
+    background-image: url("desk-v-pics/desk-pic-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .scrol_button {
+    margin-bottom: 50%;
+  }
+
+  .grid_container_1 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .second_page_title {
+    padding: 0;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+  }
+
+  .about_me_container {
+    background-image:
+      url("desk-v-pics/about-top-right-desktop.png"),
+      url("desk-v-pics/about-bottom-left-desktop.png");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+  }
+
+  form ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    width: 140%;
+    height: 140%;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 135%;
+    border-radius: 4px;
+  }
+
+  .contact-form-2 {
+    display: flex;
+    background-image: none;
+  }
+
+  .footer {
+    background-color: #dfe1e6;
+    width: 1440px;
+    height: 1px;
+    border-radius: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .icon-container-2 {
+    display: none;
+  }
+
+  .last-sec {
+    display: none;
+  }
+
+  .last-b {
+    justify-content: start;
+    margin-left: 0;
+  }
+
+  .contact-form-1 {
+    width: 45%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+  }
+
+  .imp-div {
+    height: 48px;
+  }
+
+  .about-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+  }
+
+  .item2 {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .item3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-me-3 {
+    font-size: 30px;
+    padding-top: 20vh;
+  }
+
+  .desktop-last {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+/* <---------------------MAX-WIDTH QURRIES GOES THERE ------------------------------------> */
+
+@media screen and (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .icon-container-3 {
+    display: none;
+  }
 }
