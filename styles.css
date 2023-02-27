@@ -45,7 +45,6 @@ p {
   font-weight: 600;
   line-height: 28px;
   color: #28352f;
-  transform: perspective(500px) rotateY(-42deg);
 }
 
 .navbar {
