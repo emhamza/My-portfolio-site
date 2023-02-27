@@ -74,7 +74,7 @@ The third miltstone of the portfolio project(Desktop-Version using media quries)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon...
+- [<a href="https://emhamza.github.io/My-portfolio-site/" target="_blank">Online version</a>](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
