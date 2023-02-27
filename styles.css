@@ -211,7 +211,7 @@ h3 {
 }
 
 .get-button:hover {
-  background-color: #D0D9D4;
+  background-color: #d0d9d4;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
@@ -255,10 +255,9 @@ h3 {
 }
 
 .resume_button:hover {
-  background-color: #D0D9D4;
+  background-color: #d0d9d4;
   transform: rotate(360deg);
   transform: scale(1.01);
-
 }
 
 .grid_container_2 {
@@ -566,7 +565,7 @@ textarea {
 }
 
 .see-button:hover {
-  background-color: #D0D9D4;
+  background-color: #d0d9d4;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
