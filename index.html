@@ -12,15 +12,29 @@
   </head>
 
   <body>
-    <header class="navtools_container">
+    <nav class="navtools_container">
       <h2 class="logo">Hamza</h2>
+      <ul class="mobile-menu">
+        <li class="mobile-items">
+          <a href="#mobile-portfolio" class="mobile-link">Portfolio</a>
+        </li>
+        <li class="mobile-items">
+          <a href="#mobile-about" class="mobile-link">About</a>
+        </li>
+        <li class="mobile-items">
+          <a href="#mobile-contact" class="mobile-link">Contact</a>
+        </li>
+      </ul>
  
-      <nav class="navbar">
-        <i class="fa-solid fa-bars"></i>
+        <div class="hamburger navbar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
       </nav>
-    </header>
 
-    <main class="main_container">
+    <main class="main_container" id="mobile-portfolio">
       <nav class="desktop-nav">
         <ul class="dn-list">
           <li>
@@ -204,7 +218,7 @@
       </div>
     </div>
   </section>
-   <section class="about_me_container">
+   <section id="mobile-about" class="about_me_container">
       <h1 class="about_me1">About me</h1>
       <P class="about_me2">
        I can help you build a product, 
@@ -276,7 +290,7 @@
     <div class="desktop-last"> 
       <section class="contact-form-1">
     
-       <h1 class="about-me-3">
+       <h1 id="mobile-contact" class="about-me-3">
          I'm always interested in hearing about new projects, 
          so if you'd like to chat please get in touch.
        </h1>
