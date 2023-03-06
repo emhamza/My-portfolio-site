@@ -47,6 +47,7 @@ p {
   line-height: 44px;
   font-size: 32px;
   color: #3a4a42;
+  padding-left: 0;
   transition: 0.7s ease;
   text-decoration: none;
 }
@@ -102,7 +103,7 @@ p {
 
   /* background image */
 
-  background-image: url("background.png");
+  background-image: url("portfolio-img/background.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -265,7 +266,7 @@ h3 {
 
   /* background image */
 
-  background-image: url("Mask-Group-top.png"), url("Frame.png");
+  background-image: url("portfolio-img/Mask-Group-top.png"), url("portfolio-img/Frame.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -463,7 +464,7 @@ textarea {
   text-align: center;
 
   /* Background image */
-  background-image: url("final-pic.png");
+  background-image: url("portfolio-img/final-pic.png");
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: right 60%;
@@ -791,24 +792,25 @@ textarea {
 
   .mobile-menu {
     position: absolute;
-    left: -110%;
+    left: -107%;
     top: 3%;
 
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     background-color: white;
     width: 100%;
     height: 100%;
   }
 
   .mobile-items {
-    margin: 10%;
+    margin: 5% 10% 0% 10%;
   }
 
   .mobile-menu.active {
     left: 0;
+    padding-left: 0;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -816,10 +818,12 @@ textarea {
   }
 
   .hamburger.active .bar:nth-child(1) {
+    opacity: 0.6;
     transform: translateY(6px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
+    opacity: 0.6;
     transform: translateY(-6px) rotate(-45deg);
   }
 }
