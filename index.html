@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Site</title>
+    <title>Hamza's Portfolio - A full-stack front-end developer</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
   </head>
 
   <body>
-    <header class="navtools_container">
+    <nav class="navtools_container">
       <h2 class="logo">Hamza</h2>
+      <ul class="mobile-menu">
+        <li class="mobile-items">
+          <a href="#mobile-portfolio" class="mobile-link">Portfolio</a>
+        </li>
+        <li class="mobile-items">
+          <a href="#mobile-about" class="mobile-link">About</a>
+        </li>
+        <li class="mobile-items">
+          <a href="#mobile-contact" class="mobile-link">Contact</a>
+        </li>
+      </ul>
  
-      <nav class="navbar">
-        <i class="fa-solid fa-bars"></i>
+        <div class="hamburger navbar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
       </nav>
-    </header>
+      
 
-    <main class="main_container">
+    <main class="main_container" id="mobile-portfolio">
       <nav class="desktop-nav">
         <ul class="dn-list">
           <li>
-            Portfolio
+            <a href="#mobile-portfolio" class="mobile-link">Portfolio</a>
           </li>
           <li>
-            About
+            <a href="#mobile-about" class="mobile-link">About</a>
           </li>
           <li>
-            Contact
+            <a href="#mobile-contact" class="mobile-link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -45,15 +62,15 @@
       </P>
 
     <ul class="icon_container">
-        <li><a href="https://www.twitter.com/"><img src="twitter.png" alt="Twitter icon"></a></li>
-        <li><a href="https://www.linkedin.com/"><img src="Linkedin icon.png" alt="linkedin icon"></a></li>
-        <li><a href="https://medium.com/"><img src="medium.png" alt="medium icon"></a></li>
-        <li><a href="https://github.com/"><img src="github.png" alt="github icon"></a></li>
-        <li><a href="https://www.angellist.com/"><img src="angellist.png" alt="angellist icon"></a></li>
+        <li><a href="https://www.twitter.com/"><img src="portfolio-img/twitter.png" alt="Twitter icon"></a></li>
+        <li><a href="https://www.linkedin.com/"><img src="portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
+        <li><a href="https://medium.com/"><img src="portfolio-img/medium.png" alt="medium icon"></a></li>
+        <li><a href="https://github.com/"><img src="portfolio-img/github.png" alt="github icon"></a></li>
+        <li><a href="https://www.angellist.com/"><img src="portfolio-img/angellist.png" alt="angellist icon"></a></li>
     </ul>
 
     <div class="scrol_button">
-      <i style='font-size:24px' class='fas'>&#xf107;</i>
+      <i class='fas'>&#xf107;</i>
     </div>
     </main>
 
@@ -202,7 +219,7 @@
       </div>
     </div>
   </section>
-   <section class="about_me_container">
+   <section id="mobile-about" class="about_me_container">
       <h1 class="about_me1">About me</h1>
       <P class="about_me2">
        I can help you build a product, 
@@ -221,7 +238,7 @@
 
      <div class="about-card-container">
       <div class="about-card">
-        <img class ="about-icon" src='icon-languages.png' alt="Language logo">
+        <img class ="about-icon" src='portfolio-img/icon-languages.png' alt="Language logo">
         <p class="about-title">
           Languages
         </p>
@@ -236,7 +253,7 @@
 
       <!--Frameworks-->
       <div class="about-card">
-        <img class ="about-icon" src='icon-frameworks.png' alt="Language logo">
+        <img class ="about-icon" src='portfolio-img/icon-frameworks.png' alt="Language logo">
         <p class="about-title">
           Frameworks
         </p>
@@ -252,7 +269,7 @@
 
       <!--Skills-->
       <div class="about-card">
-        <img class ="about-icon" src='icon-skills.png' alt="Language logo">
+        <img class ="about-icon" src='portfolio-img/icon-skills.png' alt="Language logo">
         <p class="about-title">
           Skills
         </p>
@@ -274,7 +291,7 @@
     <div class="desktop-last"> 
       <section class="contact-form-1">
     
-       <h1 class="about-me-3">
+       <h1 id="mobile-contact" class="about-me-3">
          I'm always interested in hearing about new projects, 
          so if you'd like to chat please get in touch.
        </h1>
@@ -311,11 +328,11 @@
     </div>
           
           <ul class="icon-container-2">
-            <li><a href="https://www.twitter.com/"><img src="twitter.png" alt="Twitter icon"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="Linkedin icon.png" alt="linkedin icon"></a></li>
-            <li><a href="https://medium.com/"><img src="medium.png" alt="medium icon"></a></li>
-            <li><a href="https://github.com/"><img src="github.png" alt="github icon"></a></li>
-            <li><a href="https://www.angellist.com/"><img src="angellist.png" alt="angellist icon"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="portfolio-img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
+            <li><a href="https://medium.com/"><img src="portfolio-img/medium.png" alt="medium icon"></a></li>
+            <li><a href="https://github.com/"><img src="portfolio-img/github.png" alt="github icon"></a></li>
+            <li><a href="https://www.angellist.com/"><img src="portfolio-img/angellist.png" alt="angellist icon"></a></li>
           </ul>
           
           <div class="last-sec">
@@ -331,11 +348,11 @@
           </div>
 
           <ul class="icon-container-3">
-            <li><a href="https://www.twitter.com/"><img src="twitter.png" alt="Twitter icon"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="Linkedin icon.png" alt="linkedin icon"></a></li>
-            <li><a href="https://medium.com/"><img src="medium.png" alt="medium icon"></a></li>
-            <li><a href="https://github.com/"><img src="github.png" alt="github icon"></a></li>
-            <li><a href="https://www.angellist.com/"><img src="angellist.png" alt="angellist icon"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="portfolio-img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
+            <li><a href="https://medium.com/"><img src="portfolio-img/medium.png" alt="medium icon"></a></li>
+            <li><a href="https://github.com/"><img src="portfolio-img/github.png" alt="github icon"></a></li>
+            <li><a href="https://www.angellist.com/"><img src="portfolio-img/angellist.png" alt="angellist icon"></a></li>
           </ul>
 
         </div> 
