@@ -41,17 +41,17 @@ p {
 
 /* for hamburger */
 
-.mobile-link{
+.mobile-link {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 44px;
   font-size: 32px;
-  color: #3A4A42;
+  color: #3a4a42;
   transition: 0.7s ease;
   text-decoration: none;
 }
 
-.mobile-link:hover{
+.mobile-link:hover {
   color: #36b37f;
 }
 
@@ -71,13 +71,13 @@ p {
   margin: 5% 10% 0% 0%;
 }
 
-.hamburger{
+.hamburger {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.bar{
+.bar {
   display: block;
   width: 1rem;
   height: 0.03rem;
@@ -789,10 +789,11 @@ textarea {
     display: none;
   }
 
-  .mobile-menu{
+  .mobile-menu {
     position: absolute;
     left: -110%;
     top: 3%;
+
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
@@ -802,24 +803,23 @@ textarea {
     height: 100%;
   }
 
-  .mobile-items{
+  .mobile-items {
     margin: 10%;
-  
   }
 
-  .mobile-menu.active{
+  .mobile-menu.active {
     left: 0;
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1){
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
   }
 
-  .hamburger.active .bar:nth-child(3){
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-6px) rotate(-45deg);
   }
 }
