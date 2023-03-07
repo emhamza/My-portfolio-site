@@ -266,7 +266,8 @@ h3 {
 
   /* background image */
 
-  background-image: url("portfolio-img/Mask-Group-top.png"), url("portfolio-img/Frame.png");
+  background-image: url("portfolio-img/Mask-Group-top.png"),
+    url("portfolio-img/Frame.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -624,10 +625,8 @@ textarea {
   body {
     max-width: 100%;
     overflow-x: hidden;
-    background-image:
-      url("desk-v-pics/desk-b-1.png"),
-      url("desk-v-pics/desk-b-2.png"),
-      url("desk-v-pics/desk-b-3.png");
+    background-image: url("desk-v-pics/desk-b-1.png"),
+      url("desk-v-pics/desk-b-2.png"), url("desk-v-pics/desk-b-3.png");
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right 98%, left 98%, 16% 97%;
@@ -668,8 +667,7 @@ textarea {
   }
 
   .about_me_container {
-    background-image:
-      url("desk-v-pics/about-top-right-desktop.png"),
+    background-image: url("desk-v-pics/about-top-right-desktop.png"),
       url("desk-v-pics/about-bottom-left-desktop.png");
     background-position: right top, left bottom;
     background-repeat: no-repeat;
@@ -832,22 +830,25 @@ textarea {
 
 .mobile-popup-model {
   display: flex;
-  border: 2px solid black;
+  padding: 5% 2%;
+  border: 2px solid #c1c7d0;
   border-radius: 10px;
+  background: #c1c7d0;
 }
 
-.popup-2{
+.popup-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
   /* text-align: center; */
-  align-items: center; 
-  border: 1px solid red;
+  align-items: center;
+  border: 1px solid #ffff;
   border-radius: 10px;
   width: 100%;
   margin: 0;
   padding: 3%;
+  background-color: #ffff;
 
   /* position: absolute;
   top: 0;
@@ -858,22 +859,34 @@ textarea {
   width: 767px;
   max-width: 60%;
   height: 75%; */
-
-
 }
 
-.mobile-popup-img{
+.mobile-popup-img {
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   background-color: white;
+  width: 100%;
+  position: relative;
 }
-.project-popup-title{
+
+.cover {
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  width: 10%;
+}
+
+.project-popup-title {
   font-family: "Inter", sans-serif;
   font-style: normal;
   align-items: center;
   font-weight: 600;
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 44px;
   text-align: left;
   background-color: white;
@@ -882,11 +895,10 @@ textarea {
 
 .popup-project-abilites {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   align-items: left;
   padding: 0;
   background-color: white;
-  
 }
 
 .popup-project-abilites .a1 {
@@ -903,10 +915,12 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.mobile-popup-text{
-  text-align: start; 
+.mobile-popup-text {
+  align-self: center;
+  text-align: start;
   /* width: 60%; */
   height: 100%;
+  max-width: 100%;
 }
 .mobile-popup-buttons {
   display: flex;
@@ -925,14 +939,14 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #36B37F;
+  background-color: #36b37f;
   font-weight: 500;
   font-size: 24px;
   color: white;
   border-radius: 4px;
   width: 220px;
   height: 68px;
-  border: 4px solid #36B37F;
+  border: 4px solid #36b37f;
   /* padding: 10% 0; */
   transition: background-color 1s;
 }
