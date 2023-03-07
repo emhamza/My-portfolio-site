@@ -841,24 +841,12 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  /* text-align: center; */
   align-items: center; 
   border: 1px solid red;
   border-radius: 10px;
   width: 100%;
   margin: 0;
   padding: 3%;
-
-  /* position: absolute;
-  top: 0;
-  left:  0; */
-  /* transform: translate(-50%, -50%);
-  z-index: 10;
-  background-color: white;
-  width: 767px;
-  max-width: 60%;
-  height: 75%; */
-
 
 }
 
