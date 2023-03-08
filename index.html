@@ -12,6 +12,7 @@
   </head>
 
   <body>
+  <div id="total-element">
     <nav class="navtools_container">
       <h2 class="logo">Hamza</h2>
       <ul class="mobile-menu">
@@ -97,57 +98,11 @@
       </ul>   
       
         <div class="b_div">
-        <button data-modal-target="#modal-popup" class="see-button">
+        <button class="see-button open-popup">
           See Project
         </button>
       </div>
     </div>
-  <!-- the popup part goes there -->
-  <div class="mobile-popup-model" id="modal-popup">
-    <div class="popup-2">
-      <div class="mobile-popup-img">
-        <img src="./portfolio-Img/mobile-popup.png" alt="cover-picture-for-mobile-popup" class="cover">
-        <img data-close-button class="close" src="./portfolio-Img/Icon - Cancel.png" alt="popup close icon">
-      </div>
-      <div class="project-popup-title">
-        <h3>
-            Keeping track of hundreds of components
-        </h3>
-        <ul class="popup-project-abilites">
-            <li class="a1">Ruby on rails</li>
-            <li class="a1">CSS</li>
-            <li class="a1">JavScript</li>
-        </ul> 
-      </div>
-      <p class="mobile-popup-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem 
-            Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it 1960s with the relea
-      </p>
-      <div class="mobile-popup-buttons">
-        <button class="btn">
-          <div class="popup-btn-text">
-            See Live
-          </div>
-          <div class="popup-icons">
-            <img src="portfolio-Img/see live icon.png" alt="see-live-icon">
-          </div>
-        </button>
-        <button class="btn">
-          <div class="popup-btn-text">
-            See Source
-          </div>
-          <div class="popup-icons">
-            <img src="portfolio-Img/Icon -GitHub.png" alt="see-live-icon">
-          </div>
-        </button>
-        </div>
-    </div>
-  </div>
-  <!-- End -->
 
     <!-- the second card -->
       <div class='project-card'>
@@ -165,7 +120,7 @@
         </ul>   
         
         <div class="b_div">
-          <button class="see-button">
+          <button class="see-button open-popup">
             See Project
           </button>
         </div>
@@ -188,7 +143,7 @@
         </ul>   
       
         <div class="b_div">
-          <button class="see-button">
+          <button class="see-button open-popup">
             See Project
           </button>
         </div>
@@ -211,7 +166,7 @@
         </ul>   
       
         <div class="b_div">
-          <button class="see-button">
+          <button class="see-button open-popup">
             See Project
           </button>
         </div>
@@ -234,7 +189,7 @@
         </ul>   
       
         <div class="b_div">
-          <button class="see-button">
+          <button class="see-button open-popup">
             See Project
           </button>
         </div>
@@ -257,7 +212,7 @@
         </ul>   
       
         <div class="b_div">
-          <button class="see-button">
+          <button class="see-button open-popup">
             See Project
           </button>
         </div>
@@ -278,6 +233,107 @@
         </button>
       </div> 
     </section>
+
+    <!-- ------------------------The mobile popup-------------------- -->
+    <div class="mobile-popup-model" id="modal-popup">
+      <div class="popup-2">
+        <div class="mobile-popup-img">
+          <img src="./portfolio-Img/mobile-popup.png" alt="cover-picture-for-mobile-popup" class="cover">
+          <img class="close" src="./portfolio-Img/Icon - Cancel.png" alt="popup close icon">
+        </div>
+        <div class="project-popup-title">
+          <h3>
+              Keeping track of hundreds of components
+          </h3>
+          <ul class="popup-project-abilites">
+              <li class="a1">Ruby on rails</li>
+              <li class="a1">CSS</li>
+              <li class="a1">JavScript</li>
+          </ul> 
+        </div>
+        <p class="mobile-popup-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem 
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it 1960s with the relea
+        </p>
+        <div class="mobile-popup-buttons">
+          <button class="btn">
+            <div class="popup-btn-text">
+              See Live
+            </div>
+            <div class="popup-icons">
+              <img src="portfolio-Img/see live icon.png" alt="see-live-icon">
+            </div>
+          </button>
+          <button class="btn">
+            <div class="popup-btn-text">
+              See Source
+            </div>
+            <div class="popup-icons">
+              <img src="portfolio-Img/Icon -GitHub.png" alt="see-live-icon">
+            </div>
+          </button>
+          </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------------------- -->
+    <!-- ------------------------The mobile popup-------------------- -->
+    <div class="desktop-popup-model" id="modal-popup">
+      <div class="desktop-popup-2">
+        <img data-close-button class="desktop-close" src="./portfolio-Img/Disabled.png" alt="popup close icon">
+        <div class="desktop-popup-img">
+          <img src="./portfolio-Img/desk-popup-img.png" alt="cover-picture-for-desktop-popup" class="desktop-cover">
+        </div>
+        <div class="desktop-project-popup-title">
+          <div class="desktop-title-container">
+              <h3>
+                Keeping track of hundreds of components
+            </h3>
+            <ul class="desktop-popup-project-abilites">
+                <li class="a1">Codekit</li>
+                <li class="a1">GitHub</li>
+                <li class="a1">JavScript</li>
+                <li class="a1">Bootstrap</li>
+                <li class="a1">Terminal</li>
+                <li class="a1">Codepen</li>
+            </ul>
+          </div> 
+          <div class="desktop-popup-buttons">
+              <button class="desk-btn-1">
+                <div class="popup-btn-text">
+                  See Live
+                </div>
+                <div class="popup-icons">
+                  <img src="portfolio-Img/see live icon.png" alt="see-live-icon">
+                </div>
+              </button>
+              <button class="desk-btn-2">
+                <div class="popup-btn-text">
+                  See Source
+                </div>
+                <div class="popup-icons">
+                  <img src="portfolio-Img/Icon -GitHub.png" alt="see-live-icon">
+                </div>
+              </button>
+          </div>
+        </div>
+        <p class="desktop-popup-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem 
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it 1960s with the relea
+        </p>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------- -->
+
+
 
     <!--Languages-->
 
@@ -403,5 +459,7 @@
         </div> 
       
     </section>
+<!-- original ends here -->
+  </div>
   </body>
 </html>
