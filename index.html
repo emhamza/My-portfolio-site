@@ -12,8 +12,7 @@
   </head>
 
   <body>
-  <div id="total-element">
-    <nav class="navtools_container">
+      <nav class="navtools_container">      
       <h2 class="logo">Hamza</h2>
       <ul class="mobile-menu">
         <li class="mobile-items">
@@ -82,142 +81,12 @@
       <h1 class="second_page_title">My Recent Works</h1>
       <hr class="divider">
     </div>
-      
-   <div class="card-container">
-    <div class='project-card'>
-      <div class="project-title">
-        <h3>Multi-Post Stories Gain+Glory 
-        </h3>
-      </div>
-      
-      <ul class="project-abilites">
-        <li class="a1">Ruby on rails</li>
-        <li class="a1">css</li>
-        <li class="a1">JavScript</li>
-        <li class="a1">html</li>          
-      </ul>   
-      
-        <div class="b_div">
-        <button class="see-button open-popup">
-          See Project
-        </button>
-      </div>
+
+  <!----------- All Six Cards inside the JS -->
+   <div class="card-container" id="all-six-cards">
     </div>
-
-    <!-- the second card -->
-      <div class='project-card'>
-        <div class="project-title">
-          <h3>
-            Multi-Post Stories Gain+Glory
-          </h3>
-        </div>
-        
-        <ul class="project-abilites">
-          <li class="a1">Ruby on rails</li>
-          <li class="a1">css</li>
-          <li class="a1">JavScript</li>
-          <li class="a1">html</li>          
-        </ul>   
-        
-        <div class="b_div">
-          <button class="see-button open-popup">
-            See Project
-          </button>
-        </div>
-      </div>
-    <!-- </div> -->
-
-    <!-- <div class="card-container"> -->
-      <div class='project-card'>
-         <div class="project-title">
-          <h3>
-            Multi-Post Stories Gain+Glory
-          </h3>
-        </div>
-      
-        <ul class="project-abilites">
-          <li class="a1">Ruby on rails</li>
-          <li class="a1">css</li>
-          <li class="a1">JavScript</li>
-          <li class="a1">html</li>          
-        </ul>   
-      
-        <div class="b_div">
-          <button class="see-button open-popup">
-            See Project
-          </button>
-        </div>
-      </div>
-    <!-- </div> -->
-
-    <!-- <div class="card-container"> -->
-      <div class='project-card'>
-        <div class="project-title">
-          <h3>
-            Multi-Post Stories Gain+Glory
-          </h3>
-        </div>
-      
-        <ul class="project-abilites">
-          <li class="a1">Ruby on rails</li>
-          <li class="a1">css</li>
-          <li class="a1">JavScript</li>
-          <li class="a1">html</li>          
-        </ul>   
-      
-        <div class="b_div">
-          <button class="see-button open-popup">
-            See Project
-          </button>
-        </div>
-      </div>
-    <!-- </div> -->
-
-    <!-- <div class="card-container"> -->
-      <div class='project-card'>
-        <div class="project-title">
-          <h3>
-            Multi-Post Stories Gain+Glory
-          </h3>
-        </div>
-      
-        <ul class="project-abilites">
-          <li class="a1">Ruby on rails</li>
-          <li class="a1">css</li>
-          <li class="a1">JavScript</li>
-          <li class="a1">html</li>          
-        </ul>   
-      
-        <div class="b_div">
-          <button class="see-button open-popup">
-            See Project
-          </button>
-        </div>
-      </div>
-      <!-- </div> -->
-
-      <!-- <div class="card-container"> -->
-      <div class='project-card'>
-        <div class="project-title">
-          <h3>
-            Multi-Post Stories Gain+Glory
-          </h3>
-        </div>
-      
-        <ul class="project-abilites">
-          <li class="a1">Ruby on rails</li>
-          <li class="a1">css</li>
-          <li class="a1">JavScript</li>
-          <li class="a1">html</li>          
-        </ul>   
-      
-        <div class="b_div">
-          <button class="see-button open-popup">
-            See Project
-          </button>
-        </div>
-      </div>
-    </div>
+    <!--  ------------------------------------------>
+  
   </section>
    <section id="mobile-about" class="about_me_container">
       <h1 class="about_me1">About me</h1>
@@ -235,11 +104,11 @@
     </section>
 
     <!-- ------------------------The mobile popup-------------------- -->
-    <div class="mobile-popup-model" id="modal-popup">
+    <div class="mobile-popup-model" id="modal">
       <div class="popup-2">
         <div class="mobile-popup-img">
           <img src="./portfolio-Img/mobile-popup.png" alt="cover-picture-for-mobile-popup" class="cover">
-          <img class="close" src="./portfolio-Img/Icon - Cancel.png" alt="popup close icon">
+          <img data-close-button class ="close" src="./portfolio-Img/Icon - Cancel.png" alt="popup close icon">
         </div>
         <div class="project-popup-title">
           <h3>
@@ -279,12 +148,13 @@
           </div>
       </div>
     </div>
+    <div id="overlay"></div >
 
     <!-- ------------------------------------------------------- -->
-    <!-- ------------------------The mobile popup-------------------- -->
-    <div class="desktop-popup-model" id="modal-popup">
+    <!-- ------------------------The desktop popup-------------------- -->
+    <div class="desktop-popup-model" id="modal2">
       <div class="desktop-popup-2">
-        <img data-close-button class="desktop-close" src="./portfolio-Img/Disabled.png" alt="popup close icon">
+        <img data-button-close class="desktop-close" src="./portfolio-Img/Disabled.png" alt="popup close icon">
         <div class="desktop-popup-img">
           <img src="./portfolio-Img/desk-popup-img.png" alt="cover-picture-for-desktop-popup" class="desktop-cover">
         </div>
@@ -331,6 +201,7 @@
         </p>
       </div>
     </div>
+    <div id="overlay2"></div >
     <!-- ------------------------------------------------------- -->
 
 
@@ -460,6 +331,5 @@
       
     </section>
 <!-- original ends here -->
-  </div>
   </body>
 </html>
