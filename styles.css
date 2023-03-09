@@ -1018,7 +1018,6 @@ textarea {
   pointer-events: none;
 }
 
-
 /* the desktop popup goes there -------------------------- */
 
 @media screen and (min-width: 768px) {
