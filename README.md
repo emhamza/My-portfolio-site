@@ -154,6 +154,10 @@ GitHub Pages
 - Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 
+👤 **Prince Nwuke**
+
+- GitHub: [@prius2055](https://github.com/prius2055)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
