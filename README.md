@@ -167,6 +167,12 @@ GitHub Pages
 - Twitter: [@azeez_umoru](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](linkedin.com/in/umoru-abdul-azeez-527921194)
 
+👤 **Gladwin Tshepo Ramantso**
+
+- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
+- Twitter: [@ramgt001](https://twitter.com/ramgt001)
+- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
 👤 **Prince Nwuke**
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/prince-nwuke-69142a227/)
