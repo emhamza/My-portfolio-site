@@ -7,6 +7,7 @@
     <title>Hamza's Portfolio - A full-stack front-end developer</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <script src="formValidation.js" defer></script>
     <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
   </head>
@@ -74,7 +75,7 @@
     </div>
     </main>
 
-   <!-- the second part of the project starts form here -->
+   <!-- the second part of the project starts from here -->
     
   <section class="grid_container_1">
     <div class="imp-div">
@@ -162,7 +163,7 @@
     </div>
   
 
-   <!-- Contact form starts from here -->
+   <!-- Contact from starts from here -->
  
   <!-- <section> -->
     <div class="desktop-last"> 
@@ -176,7 +177,7 @@
       </section>
 
       <section class="contact-form-2">
-         <form action="https://formspree.io/f/xgebkzaz" method="post">
+         <form action="https://formspree.io/f/xgebkzaz" method="post" class="contactForm">
           <ul>
 
             <li class="name-box">
@@ -186,7 +187,7 @@
 
             <li class="email-box"> 
               <label for="email"></label>
-              <input type="email" name="email" placeholder="Email address" class="email" required/>
+              <input type="email" name="email" placeholder="Email address" class="email" id="lowerCase" required/>
             </li>
 
             <li class="text-box">
@@ -195,8 +196,9 @@
             </li>
           </ul>
           
+          <span class="error" aria-live="polite"></span>
             <div class="last-b">
-              <button class="get-button">
+              <button class="get-button" id="submitB">
                 Get in touch
               </button>
             </div>
@@ -205,11 +207,11 @@
     </div>
           
           <ul class="icon-container-2">
-            <li><a href="https://www.twitter.com/"><img src="portfolio-img/twitter.png" alt="Twitter icon"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
-            <li><a href="https://medium.com/"><img src="portfolio-img/medium.png" alt="medium icon"></a></li>
-            <li><a href="https://github.com/"><img src="portfolio-img/github.png" alt="github icon"></a></li>
-            <li><a href="https://www.angellist.com/"><img src="portfolio-img/angellist.png" alt="angellist icon"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="./portfolio-img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="./portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
+            <li><a href="https://medium.com/"><img src="./portfolio-img/medium.png" alt="medium icon"></a></li>
+            <li><a href="https://github.com/"><img src="./portfolio-img/github.png" alt="github icon"></a></li>
+            <li><a href="https://www.angellist.com/"><img src="./portfolio-img/angellist.png" alt="angellist icon"></a></li>
           </ul>
           
           <div class="last-sec">
@@ -225,11 +227,11 @@
           </div>
 
           <ul class="icon-container-3">
-            <li><a href="https://www.twitter.com/"><img src="portfolio-img/twitter.png" alt="Twitter icon"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
-            <li><a href="https://medium.com/"><img src="portfolio-img/medium.png" alt="medium icon"></a></li>
-            <li><a href="https://github.com/"><img src="portfolio-img/github.png" alt="github icon"></a></li>
-            <li><a href="https://www.angellist.com/"><img src="portfolio-img/angellist.png" alt="angellist icon"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="./portfolio-img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="./portfolio-img/Linkedin icon.png" alt="linkedin icon"></a></li>
+            <li><a href="https://medium.com/"><img src="./portfolio-img/medium.png" alt="medium icon"></a></li>
+            <li><a href="https://github.com/"><img src="./portfolio-img/github.png" alt="github icon"></a></li>
+            <li><a href="https://www.angellist.com/"><img src="./portfolio-img/angellist.png" alt="angellist icon"></a></li>
           </ul>
 
         </div> 

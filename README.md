@@ -35,10 +35,12 @@ I have completed the thirs milstone of the following project and add a HTML from
 The third miltstone of the portfolio project(Desktop-Version using media quries) has been achieved and added!
 
 ## 🛠 Built With <a name="built-with"></a>
+
 -HTML5
 -CSS3
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Version Control</summary>
   <ul>
@@ -69,7 +71,6 @@ The third miltstone of the portfolio project(Desktop-Version using media quries)
 - **[Use of css grid properrty]**
 - **[Use of HTML form with custamization]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -95,25 +96,31 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
- Use git clone command or downloaded ZIP folder
+Use git clone command or downloaded ZIP folder
 Example command:
+
 ```sh
   cd my-folder
   git clone: (https://github.com/emhamza/My-portfolio-site.git)
 ```
+
 ### Install
 
 Install this project with: npm Example commands:
+
 ```sh
   cd my-project
   npm init -y
 ```
+
 ```sh
   npm install --save-dev hint@7.x
 ```
+
 ```sh
   npx hint .
 ```
+
 ```sh
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
@@ -122,16 +129,22 @@ Install this project with: npm Example commands:
 
 To run the project, execute the following command: npm test
 Example command:
+
 ```sh
    GitHub Pages Server
 ```
+
 ### Run tests
 
 To run tests, run the following command: npm test
 Example command:
+
 ```sh
   npx stylelint "**/*.{css,scss}"
-  ```
+```
+```sh
+  npx eslint "**/*.js" --fix
+```
 
 ### Deployment
 
@@ -156,7 +169,9 @@ GitHub Pages
 
 👤 **Prince Nwuke**
 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/prince-nwuke-69142a227/)
 - GitHub: [@prius2055](https://github.com/prius2055)
+- Twitter: [@Prius2055](https://twitter.com/Prius2055?t=fdHjY2XRTNU-GlUa6lk7RQ&s=09)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,10 +199,9 @@ If you like this project then please follow me on Linkedin, Twitter and GitHub. 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microvers for  this project!
+I would like to thank Microvers for this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
