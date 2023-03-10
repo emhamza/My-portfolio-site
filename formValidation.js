@@ -13,6 +13,5 @@ contactForm.addEventListener('submit', (event) => {
     emailInput.className = 'valid';
     error.textContent = '';
     error.className = 'error';
-    // save();
   }
 });
