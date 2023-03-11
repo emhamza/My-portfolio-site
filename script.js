@@ -21,7 +21,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -34,7 +34,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -47,7 +47,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -60,7 +60,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -73,7 +73,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -86,7 +86,7 @@ const cardData = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: '/portfolio-Img/mobile-popup.png',
+    image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
@@ -133,7 +133,7 @@ function popDisplay() {
   const popScreen = `<div class="popup-2">
                     <img data-close-button class="desktop-close" src="./portfolio-Img/Disabled.png" alt="popup close icon">
                     <div class="mobile-popup-img">
-                    <img src= ${cardData[0].image} alt="cover-picture-for-mobile-popup" class="cover">
+                    <img src= '${cardData[0].image}' alt="cover-picture-for-mobile-popup" class="cover">
                     <img data-close-button class ="close" src="./portfolio-Img/Icon - Cancel.png" alt="popup close icon">
                     </div>
                     <div class="desktop-popup-buttons">
@@ -182,7 +182,7 @@ function popDisplay() {
                     <button class="btn">
                         <div class="popup-btn-text">${cardData[0].btn1}</div>
                         <div class="popup-icons">
-                        <img src="portfolio-Img/see live icon.png" alt="see-live-icon">
+                        <img src="./portfolio-Img/see live icon.png" alt="see-live-icon">
                         </div>
                     </button>
                     </a>
@@ -190,7 +190,7 @@ function popDisplay() {
                     <button class="btn">
                         <div class="popup-btn-text">${cardData[0].btn2}</div>
                         <div class="popup-icons">
-                        <img src="portfolio-Img/Icon -GitHub.png" alt="see-live-icon">
+                        <img src="./portfolio-Img/Icon -GitHub.png" alt="see-live-icon">
                         </div>
                     </button>
                     </a>
