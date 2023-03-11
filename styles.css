@@ -103,7 +103,7 @@ p {
 
   /* background image */
 
-  background-image: url("portfolio-img/background.png");
+  background-image: url("portfolio-Img/background.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -267,8 +267,8 @@ h3 {
   /* background image */
 
   background-image:
-    url("portfolio-img/Mask-Group-top.png"),
-    url("portfolio-img/Frame.png");
+    url("portfolio-Img/Mask-Group-top.png"),
+    url("portfolio-Img/Frame.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat;
 }
@@ -466,7 +466,7 @@ textarea {
   text-align: center;
 
   /* Background image */
-  background-image: url("portfolio-img/final-pic.png");
+  background-image: url("portfolio-Img/final-pic.png");
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: right 60%;
