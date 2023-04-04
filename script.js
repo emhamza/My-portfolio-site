@@ -21,14 +21,15 @@ const cardData = [
     title: 'National Education Summit 2023',
     technologies: ['HTML5', 'CSS', 'Javascript', 'DOM'],
     capstone1: './portfolio-Img/capston-1.JPG',
+    capstoneIntro1: 'This is my first capstone project at Microverse a online development school In this capston project I have developed a two page cermonay website about National Education Summit 2023. This is a mobile first website which is also look nice on big screens I have used HTML5 CSS and JavaScript best practices in this website and I also added logics to the buttons and hamburger You can check this out by clicking on the view live source buttons I would love to build such amazing projects with your firm!',
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
-    image: './portfolio-Img/mobile-popup.png',
-    popTitle: 'Keeping track of hundreds of components',
+    image: './portfolio-Img/capston-1.JPG',
+    popTitle: 'National Education Summit 2023',
     popTechnologies2: ['Codekit', 'GitHub', 'JavScript', 'Bootstrap', 'Terminal', 'Codepen'],
     btn1: 'See Live',
     btn2: 'See Source',
-    linkToLiveSource: '#',
-    linkToSource: '#',
+    linkToLiveSource: 'https://emhamza.github.io/Capstone-1/',
+    linkToSource: 'https://github.com/emhamza/Capstone-1',
   },
   {
     id: 2,
@@ -172,12 +173,7 @@ function popDisplay() {
                     </div>
                     
                     <p class="mobile-popup-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem 
-                        Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it 1960s with the relea
+                        ${cardData[0].capstoneIntro1}
                     </p>
                     <div class="mobile-popup-buttons">
                     <a href=${cardData[0].linkToLiveSource}>
