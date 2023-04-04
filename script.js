@@ -18,8 +18,9 @@ document.querySelectorAll('.mobile-link').forEach((n) => n.addEventListener('cli
 const cardData = [
   {
     id: 1,
-    title: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    title: 'National Education Summit 2023',
+    technologies: ['HTML5', 'CSS', 'Javascript', 'DOM'],
+    capstone1: './portfolio-Img/capston-1.JPG',
     popTechnologies1: ['Ruby on rails', 'css', 'Javascript'],
     image: './portfolio-Img/mobile-popup.png',
     popTitle: 'Keeping track of hundreds of components',
@@ -103,8 +104,9 @@ const popWindow1 = document.getElementById('popup-window');
 
 function display() {
   let displayCard = '';
-  for (let i = 0; i < 6; i += 1) {
+  for (let i = 0; i < cardData.length; i += 1) {
     displayCard += `<div class='project-card'>
+                    <img src =${cardData[i].capstone1}></img>
                     <div class="project-title">
                       <h3>${cardData[i].title}</h3>
                     </div>
@@ -118,8 +120,8 @@ function display() {
                     
                       <div class="b_div">
                         <button data-modal-target = '.modal' type="button" class="see-button open-popup">
-                        See Project
-                      </button>
+                          See Project
+                        </button>
                     </div>
                   </div>
     `;
